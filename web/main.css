@@ -1,4 +1,73 @@
-html {
-	font-size: 25px;
+html, body {
+	font-size: 21px;
 	font-family: 'Fira Sans', sans-serif;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0 0 200px;
+	-ms-user-select: none; 
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	user-select: none;
 }
+
+
+
+.main_block {
+	position: relative;
+	margin: 0 67px;
+}
+
+
+.greeting {
+	position: relative;
+	padding: 60px 60px 60px;
+
+}
+
+
+
+.instruction {
+	border: 1px solid;
+	border-radius: 4px;
+	padding: 0 30px;
+	min-width: 630px;
+	box-shadow: 0 0 11px 5px rgba(0, 0, 255, .2);
+	border-color: #D8BFD8;
+}
+
+
+
+.info {
+	display: flex;
+	flex-grow: 1;
+	align-items: flex-end;
+}
+
+
+.program_name {
+	margin: 0 0 70px 0;
+	font-size: 25px;
+}
+
+.icon_instruction {
+	vertical-align: top;
+}
+
+
+.ggrerw {
+	margin: 26px 0 0 0;
+	vertical-align: initial;
+	outline: none;
+}
+
+
+.TRUU {
+/*	margin: 0 0 27px 0;*/
+	font-size: 41px;
+
+}
+
+.qr_code {
+	padding: 15px 30px;
+}	
