@@ -1,10 +1,6 @@
 html, body {
 	font-size: 21px;
 	font-family: 'Fira Sans', sans-serif;
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0 0 200px;
 	-ms-user-select: none; 
 	-moz-user-select: none; 
 	-webkit-user-select: none; 
@@ -21,7 +17,7 @@ html, body {
 
 .greeting {
 	position: relative;
-	padding: 60px 60px 60px;
+	padding: 30px 60px 0;
 
 }
 
@@ -30,7 +26,8 @@ html, body {
 .instruction {
 	border: 1px solid;
 	border-radius: 4px;
-	padding: 0 30px;
+	margin: 0 67px;
+	padding: 0 30px 0 30px;
 	min-width: 630px;
 	box-shadow: 0 0 11px 5px rgba(0, 0, 255, .2);
 	border-color: #D8BFD8;
@@ -40,8 +37,8 @@ html, body {
 
 .info {
 	display: flex;
-	flex-grow: 1;
 	align-items: flex-end;
+	justify-content: space-between;
 }
 
 
@@ -55,6 +52,7 @@ html, body {
 }
 
 
+
 .ggrerw {
 	margin: 26px 0 0 0;
 	vertical-align: initial;
@@ -63,11 +61,53 @@ html, body {
 
 
 .TRUU {
-/*	margin: 0 0 27px 0;*/
 	font-size: 41px;
 
 }
 
-.qr_code {
+
+.resUU {
+	display: flex;
+	border-color: violet;
+	margin: 30px auto;
+	align-content: space-between;
+	justify-content: space-between;
+}
+
+.row {
+	flex: 1em;
+}
+
+.qrcode {
 	padding: 15px 30px;
-}	
+}
+
+
+.attention {
+	font-size: 15px;
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+}
+
+.qr_code {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+
+.button {
+	margin : 30px 67px;
+	padding : 15px 70px;
+	border : none;
+	background : linear-gradient(to right, #7CFC00, #98FB98);
+	font-size : 40px;
+	color : white;
+	border-radius : 3px;
+}
+
+
+.button:hover {
+	background: #3CB371;
+	background-color: #3CB371;
+
